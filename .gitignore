@@ -17,6 +17,8 @@ env/
 *.pth
 data/
 mnist_model.pth
+.DS_Store
+
 
 # IDE specific files
 .vscode/
