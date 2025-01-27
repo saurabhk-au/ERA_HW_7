@@ -27,7 +27,7 @@ jobs:
         python -c "
         import torch
         from model import MNISTNet
-       model = MNISTNet()
+        model = MNISTNet()
 #        total_params = sum(p.numel() for p in model.parameters())
 #        assert total_params < 20000, 'Total Parameter Count Test failed'
 #       assert any(isinstance(layer, torch.nn.BatchNorm2d) for layer in model.modules()), 'Batch Normalization Test failed'
