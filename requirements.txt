@@ -4,6 +4,6 @@ numpy>=1.19.2
 pytest
 tqdm
 torchsummary
-torch.optim.lr_scheduler 
+
 
 
