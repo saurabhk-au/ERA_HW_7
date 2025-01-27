@@ -105,7 +105,7 @@ def main():
     train_transform = transforms.Compose([
         transforms.RandomRotation((-7.0, 7.0), fill=(1,)),
         transforms.ToTensor(),
-     #   Cutout(n_holes=1, length=16),  # Add Cutout transformation
+ #       Cutout(n_holes=1, length=16),  # Add Cutout transformation
 
         transforms.Normalize((0.1307,), (0.3081,))
     ])
